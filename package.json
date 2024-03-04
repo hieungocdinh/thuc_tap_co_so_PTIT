@@ -1,0 +1,22 @@
+{
+  "name": "trunka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bai tap ca nhan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieungocdinh/thuc_tap_co_so_PTIT.git"
+  },
+  "author": "hieungocdinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieungocdinh/thuc_tap_co_so_PTIT/issues"
+  },
+  "homepage": "https://github.com/hieungocdinh/thuc_tap_co_so_PTIT#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
