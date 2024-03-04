@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --inspect index.js",
     "test": "bai tap ca nhan"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/hieungocdinh/thuc_tap_co_so_PTIT#readme",
   "dependencies": {
     "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
