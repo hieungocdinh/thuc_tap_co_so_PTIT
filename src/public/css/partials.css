@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  background-color: #feffd5;
+}
+
+.header__item-logo {
+  width: 100px;
+}
+
+.header__item {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__item-link {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.footer {
+  border-top: 1px solid #000;
+}
+
+.footer__box {
+  margin-top: 18px;
+}
+
+.footer__box-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__box-contact-link a {
+  margin-right: 8px;
+  color: #000;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.footer__box-contact-link a:hover {
+  text-decoration: none;
+}
+
+.footer__box-input p {
+  font-weight: 500;
+}
+
+.footer__box-input-form {
+  margin-top: 8px;
+}
+
+.footer__box-input-form-input {
+  height: 40px;
+  width: 70%;
+  padding-left: 16px;
+}
+
+.footer__box-input-form-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 20%;
+}
+
+.footer__box-input-form span {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.footer__infomation {
+  margin-top: 20px;
+  background-color: black;
+  padding: 40px 0;
+}
+
+.footer__infomation p {
+  color: white;
+  font-size: 16px;
+  margin: 4px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/partials.scss%22,%22../../resources/scss/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA,kBCJa;;;ADOjB;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAIJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAIJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA%22,%22file%22:%22partials.css%22%7D */

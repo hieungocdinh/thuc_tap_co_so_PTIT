@@ -2,9 +2,10 @@
   "name": "trunka",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "sass --embed-source-map --watch src/resources/scss:src/public/css/",
     "test": "bai tap ca nhan"
   },
   "repository": {
@@ -18,9 +19,15 @@
   },
   "homepage": "https://github.com/hieungocdinh/thuc_tap_co_so_PTIT#readme",
   "dependencies": {
-    "express": "^4.18.3"
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0",
+    "sass": "^1.71.1"
   },
   "devDependencies": {
+    "node-sass": "^9.0.0",
     "nodemon": "^3.1.0"
   }
 }
