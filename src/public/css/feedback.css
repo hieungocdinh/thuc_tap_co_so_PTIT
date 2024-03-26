@@ -1,0 +1,45 @@
+.feedback {
+  min-height: 500px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.feedback__form {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.feedback__form-group {
+  margin: 20px 0;
+}
+
+.feedback__form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback__form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback__form-group-btn {
+  text-align: right;
+}
+
+.feedback__form-btn {
+  margin-top: 12px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/feedback.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAIJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAEJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA%22,%22file%22:%22feedback.css%22%7D */

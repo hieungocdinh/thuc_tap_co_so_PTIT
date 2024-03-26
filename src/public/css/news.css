@@ -1,0 +1,50 @@
+.news {
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.news__blog {
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 20px 0;
+  box-shadow: 8px 8px 8px grey;
+}
+
+.news__blog-inf {
+  padding: 24px 12px;
+}
+
+.news__blog-link {
+  transform: translateY(80%);
+}
+
+.news__blog-link:hover {
+  text-decoration: none;
+}
+
+.news-detail {
+  min-height: 500px;
+  margin-top: 20px;
+}
+
+.news-detail__title {
+  margin: 20px 0;
+}
+
+.news-detail__img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+  margin: 20px 0;
+}
+
+.news-detail__paragraph {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/news.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAIJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA%22,%22file%22:%22news.css%22%7D */

@@ -1,0 +1,80 @@
+.recruitment{
+    min-height: 500px;
+    margin-top: 40px;
+}
+
+.recruitment__blog{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 20px 0;
+    box-shadow: 8px 8px 8px grey;
+}
+
+.recruitment__blog-inf{
+    padding: 24px 12px;
+}
+
+.recruitment__blog-link{
+    transform: translateY(80%)
+}
+
+.recruitment__blog-link:hover{
+    text-decoration: none;
+}
+
+// NEWS DETAILS
+.recruitment-detail{
+    min-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.recruitment-detail__title{
+    margin: 20px 0;
+}
+
+.recruitment-detail__img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    margin: 20px 0;
+}
+
+.recruitment-detail__info{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px dashed black;
+}
+
+.recruitment-detail__standard{
+    margin-bottom: 20px;
+}
+
+.recruitment-detail__standard-title{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+
+}
+
+.recruitment-detail__standard-content{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.recruitment-detail__standard-list{
+    font-size: 18px;
+    list-style-type: disc;
+}
+
+.recruitment-detail__contact-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+}

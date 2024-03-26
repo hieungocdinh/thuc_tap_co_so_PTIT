@@ -1,7 +1,11 @@
 class MenuController {
-    // [GET] /news
+    // [GET] /menu
     index(req, res) {
-        res.render('menu');
+        res.render('menu/menu');
+    }
+    // [GET] /menu/item
+    show(req, res) {
+        res.render('menu/menuItem');
     }
 }
 
