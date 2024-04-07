@@ -85,4 +85,34 @@
   color: #646464;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/menu.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAIJ;EACI;EACA;;;AAOJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAIJ;EACI;EACA;;;AAGJ;EACI;EACA%22,%22file%22:%22menu.css%22%7D */
+.menu-item__inf-btn {
+  width: 80%;
+  margin-top: 32px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item__inf-btn-click {
+  padding: 8px 16px;
+  background-color: #f7f5c5;
+  border-radius: 4px;
+  font-size: 18px;
+  color: black;
+  min-width: 200px;
+  height: 60px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.menu-item__inf-btn-click.buy-now {
+  background-color: #77ff92;
+}
+
+.menu-item__inf-btn-click:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/menu.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAIJ;EACI;EACA;;;AAOJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAIJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA%22,%22file%22:%22menu.css%22%7D */

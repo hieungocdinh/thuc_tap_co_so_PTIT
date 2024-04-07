@@ -19,82 +19,19 @@
             </ul>
         </div>
         <div class="col-xl-9 menu__main">
-            <h3 id="1" class="menu__main-class-title">Trà nướng</h3>
+            <h3 id="1" class="menu__main-class-title">Menu</h3>
             <br>
             <div class="row menu__main-class">
+                {{#each products}}
                 <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
+                    <a href="/menu/item/{{this.slug}}">
+                        <img src="{{this.img}}" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
+                        <h5 class="menu__main-item-title">{{this.name}}</h5>
+                        <p class="menu__main-item-price">{{this.price}} đ</p>
                     </a>
                 </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
+                {{/each}}
             </div>
-            <h3 id="2" class="menu__main-class-title">Trà sữa</h3>
-            <br>
-            <div class="row menu__main-class">
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-            </div>
-            <h3 id="3" class="menu__main-class-title">Cafe</h3>
-            <br>
-            <div class="row menu__main-class">
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-                <div class="col-xl-4 menu__main-item">
-                    <a href="/menu/item">
-                        <img src="/img/trunka_item_1.jpg" alt="Hình ảnh sản phẩm minh họa" class="menu__main-item-img w-100">
-                        <h5 class="menu__main-item-title">Trà chanh nướng</h5>
-                        <p class="menu__main-item-price">50.000đ</p>
-                    </a>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>

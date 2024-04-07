@@ -1,7 +1,7 @@
 .header {
-  display: flex;
   background-color: #feffd5;
   box-shadow: 0px 2px 8px grey;
+  position: relative;
 }
 
 .header__item-logo {
@@ -19,6 +19,30 @@
   font-weight: 500;
   font-size: 24px;
   text-transform: uppercase;
+}
+
+.header__user {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1%;
+  display: flex;
+  font-size: 24px;
+}
+
+.header__user-item a {
+  padding: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header__user-item a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.header__user-cart a {
+  margin-right: 20px;
 }
 
 .footer {
@@ -85,4 +109,4 @@
   margin: 4px;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/partials.scss%22,%22../../resources/scss/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA,kBCJa;EDKb;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAIJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAIJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA%22,%22file%22:%22partials.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/partials.scss%22,%22../../resources/scss/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI,kBCHa;EDIb;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAEJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAMJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAIJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA%22,%22file%22:%22partials.css%22%7D */

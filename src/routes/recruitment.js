@@ -3,7 +3,7 @@ const router = express.Router();
 
 const recruitmentController = require('../app/controllers/RecruitmentController');
 
-router.use('/detail', recruitmentController.detail);
-router.use('/', recruitmentController.index);
+router.get('/detail', recruitmentController.detail);
+router.get('/', recruitmentController.index);
 
 module.exports = router;

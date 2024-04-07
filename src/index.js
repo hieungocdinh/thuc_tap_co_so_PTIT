@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const methodOverride = require('method-override');
 const exphbs = require('express-handlebars').engine;
 const path = require('path');
 
@@ -8,11 +9,23 @@ const port = 3000
 
 const route = require('./routes');
 const db = require('./config/db');
+const { helpers } = require('handlebars');
 
 //connect to db
 db.connect();
 
 app.use(express.static(path.join(__dirname, 'public'))); //static file
+
+//parse body
+app.use(
+  express.urlencoded({
+      extended: true,
+  }),
+);
+app.use(express.json());
+
+//override method
+app.use(methodOverride('_method'));
 
 //HTTP logger
 app.use(morgan('combined'));

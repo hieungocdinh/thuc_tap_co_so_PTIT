@@ -1,9 +1,9 @@
 @import '_variables';
 // Header
 .header{
-    display: flex;
     background-color: $general-color;
     box-shadow: 0px 2px 8px grey;
+    position: relative;
 }
 
 .header__item-logo{
@@ -22,6 +22,31 @@
     font-size: 24px;
     text-transform: uppercase;
 }
+
+.header__user{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1%;
+    display: flex;
+    font-size: 24px;
+}
+.header__user-item a{
+    padding: 4px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header__user-item a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.header__user-cart a{
+    margin-right: 20px;
+   
+}
+
 
 // Footer
 .footer{

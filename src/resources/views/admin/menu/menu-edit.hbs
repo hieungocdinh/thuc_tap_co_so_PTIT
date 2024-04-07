@@ -1,0 +1,28 @@
+<div class="container">
+    <br>
+    <h3>Sửa thông tin món</h3>
+    <br>
+</div>
+<form class="admin__menu-create container" action="/admin/menu/edit/{{product._id}}?_method=PUT" method="POST">
+    <div class="form-group">
+        <label for="name">Tên món</label>
+        <input type="text" class="form-control" id="name" name="name" value="{{product.name}}">
+    </div>  
+    <div class="form-group">
+        <label for="type">Loại đồ uống</label>
+        <input type="text" class="form-control" id="type" name="type" value="{{product.type}}">
+    </div>
+    <div class="form-group">
+        <label for="price">Giá tiền</label>
+        <input type="number" class="form-control" id="price" name="price" placeholder="Nhập giá tiền" min="5000" step="5000" value="{{product.price}}">
+    </div>
+    <div class="form-group">
+        <label for="description">Mô tả</label>
+        <textarea class="form-control" id="description" name="description" rows="5">{{product.description}}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Sửa</button>
+</form>
+
+<br>
+<br>
+<br>

@@ -1,0 +1,43 @@
+.admin__header {
+  background-color: #ccc;
+  height: 80px;
+  padding: 0 40px;
+  margin-bottom: 24px;
+}
+
+.admin__header-item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.admin__header-item > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.admin__menu {
+  padding: 0 40px;
+}
+
+.admin__menu-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin__menu-header h2 {
+  font-size: 24px;
+}
+
+.admin__menu-item {
+  height: 100%;
+}
+
+.admin__menu-item-img {
+  width: 160px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../resources/scss/admin.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAEJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA%22,%22file%22:%22admin.css%22%7D */
