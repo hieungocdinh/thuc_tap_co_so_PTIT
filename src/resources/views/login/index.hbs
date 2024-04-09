@@ -5,27 +5,41 @@
 <div id="slideBox">
     <div class="topLayer">
         <div class="left">
-            <div class="content">
+            <div class="content" style="top: 10%;">
                 <h2>Sign Up</h2>
-                <form method="post" onsubmit="return false;">
+                <form class="login__form" id="signupForm" action="login/register" method="post" onsubmit="return false;">
                     <div class="form-group">
-                        <input type="text" placeholder="username" />
+                        <label for="username" class="form-label-register">Username</label>
+                        <input type="text" id="username" name="username" class="login__form-input" placeholder="username"/>
                     </div>
-                    <div class="form-group"></div>
-                    <div class="form-group"></div>
-                    <div class="form-group"></div>
+                    <div class="form-group">
+                        <label for="username" class="form-label-register">Password</label>
+                        <input type="password" id="password" name="password" class="login__form-input"  placeholder="password"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="form-label-register">Nhập lại password</label>
+                        <input type="password" id="confirmPassword" class="login__form-input" placeholder="password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="form-label-register">Email</label>
+                        <input type="email" id="email" name="email" class="login__form-input" placeholder="email"/>
+                    </div>
+                    <button id="goLeft" class="off">Login</button>
+                    <button id="signupButton" type="submit">Sign up</button>
                 </form>
-                <button id="goLeft" class="off">Login</button>
-                <button>Sign up</button>
             </div>
         </div>
         <div class="right">
             <div class="content">
                 <h2>Login</h2>
-                <form method="post" onsubmit="return false;">
+                <form class="login__form" method="post" onsubmit="return false;">
                     <div class="form-group">
                         <label for="username" class="form-label">Username</label>
-                        <input type="text" />
+                        <input type="text" name="username" class="login__form-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="form-label">Password</label>
+                        <input type="password" name="password" class="login__form-input" />
                     </div>
                     <button id="goRight" class="off">Sign Up</button>
                     <button id="login" type="submit">Login</button>
